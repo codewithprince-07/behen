@@ -101,14 +101,14 @@ body {
 /* ----------------- Hero ----------------- */
 .hero {
     display: flex;
-    flex-direction: row; /* column se row me badla */
+    flex-direction: row; 
     align-items: center;
     justify-content: center;
     padding: 80px 20px 60px;
-    text-align: left; /* text left align */
+    text-align: left; 
     max-width: 1000px;
     margin: 0 auto;
-    gap: 40px; /* text aur image ke beech gap */
+    gap: 40px; 
 }
 
 .hero-text {
@@ -118,7 +118,7 @@ body {
 .hero-image {
     flex: 1;
     display: flex;
-    justify-content: flex-end; /* image ko right align kare */
+    justify-content: flex-end; 
 }
 
 .hero-image img {
@@ -182,7 +182,7 @@ body {
     .hero-image img {
         width: 160px;
         height: auto;
-        border-radius: 1.5rem; /* rectangle hi rahe */
+        border-radius: 1.5rem; 
         margin-bottom: 25px;
     }
 }
@@ -469,8 +469,10 @@ footer .socials a:hover {
 /* Small Mobile Devices */
 @media (max-width: 480px) {
     .hero-image img {
-        width: 130px;
-        height: 130px;
+       width: 100%;
+        height: 300px;
+        border-radius: 1.5rem;
+        background-size: cover;
     }
     .navbar h1{
         margin-left: -5px;
@@ -496,5 +498,6 @@ footer .socials a:hover {
         font-size: 1rem;
     }
 }
+
 
 
