@@ -391,6 +391,7 @@ footer {
     text-align: center;
     padding: 25px 20px;
     font-size: 1rem;
+    border-radius: 2rem  2rem 0 0;
 }
 
 footer .socials a {
@@ -498,6 +499,7 @@ footer .socials a:hover {
         font-size: 1rem;
     }
 }
+
 
 
 
