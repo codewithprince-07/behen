@@ -30,7 +30,24 @@
   <section id="home" class="hero">
     <div class="hero-text">
       <h1>Hi, I'm <span>Muskan Kumari</span></h1>
-      <p>A passionate <strong>Frontend Developer</strong> crafting beautiful and responsive websites.</p>
+      <p>A passionate <strong>
+          <!-- Element to contain animated typing -->
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Frontend</i> Development.', '&amp; App Development.'],
+      typeSpeed: 100,
+      backSpeed: 30,   
+      loop: true 
+    });
+  </script>
+</body>
+      </strong> crafting beautiful and responsive websites.</p>
       <a href="#projects" class="btn">See My Work</a>
     </div>
     <div class="hero-image">
@@ -115,11 +132,12 @@
    <footer>
     <p>© 2025 Muskan Kumari. All Rights Reserved.</p>
     <div class="socials">
-        <a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://www.linkedin.com/in/muskan-kumari-916817330/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
         <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
         
     </div>
 </footer>
-  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </body>
 </html>
+
